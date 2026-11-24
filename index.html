@@ -3,36 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Usta Kombi Servis | Kombi Bakım, Arıza ve Montaj</title>
-  <meta name="description" content="Kombi bakımı, arıza onarımı, kombi montajı ve petek temizliği. Tüm marka ve modellere hızlı, garantili ve uygun fiyatlı servis.">
-  <meta name="theme-color" content="#c2410c">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>">
+  <title>Kaytes Kombi | 7/24 Kombi Tamiri ve Servisi</title>
+  <meta name="description" content="Kaytes Kombi – 7/24 kombi tamiri, bakımı, montajı ve petek temizliği. Kurucu Muhammed Kaya güvencesiyle tüm marka kombilere hızlı ve garantili servis.">
+  <meta name="theme-color" content="#05070d">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230b1d44'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='34' fill='%23ffffff'>K</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Üst bar -->
-  <div class="topbar">
-    <div class="container topbar-inner">
-      <span>🕘 Haftanın 7 günü 08:00 – 22:00</span>
-      <a href="tel:+905550000000">📞 0555 000 00 00</a>
-    </div>
-  </div>
+  <!-- İkon seti -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+      <symbol id="i-msg" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+      <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+      <symbol id="i-flame" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.07-2.14-.22-4.05 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.15.43-2.29 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+      <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></symbol>
+      <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></symbol>
+      <symbol id="i-thermo" viewBox="0 0 24 24"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></symbol>
+      <symbol id="i-zap" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+      <symbol id="i-tag" viewBox="0 0 24 24"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+    </defs>
+  </svg>
 
-  <!-- Menü -->
+  <!-- Header -->
   <header class="header" id="header">
     <div class="container header-inner">
-      <a href="#" class="logo">
-        <span class="logo-icon">🔥</span>
-        <span>Usta<strong>Kombi</strong></span>
+      <a href="#" class="logo" aria-label="Kaytes Kombi ana sayfa">
+        <span class="logo-mark">K</span>
+        <span class="logo-text">KAYTES<small>KOMBİ SERVİS</small></span>
       </a>
       <nav class="nav" id="nav">
         <a href="#hizmetler">Hizmetler</a>
-        <a href="#neden-biz">Neden Biz</a>
-        <a href="#nasil">Nasıl Çalışıyoruz</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#surec">Süreç</a>
         <a href="#sss">SSS</a>
         <a href="#iletisim">İletişim</a>
-        <a href="tel:+905550000000" class="btn btn-primary btn-sm">Hemen Ara</a>
+        <a href="tel:+905550000000" class="btn btn-primary btn-sm">
+          <svg class="ico"><use href="#i-phone"/></svg> 0555 000 00 00
+        </a>
       </nav>
       <button class="menu-toggle" id="menuToggle" aria-label="Menüyü aç">
         <span></span><span></span><span></span>
@@ -42,37 +61,60 @@
 
   <!-- Hero -->
   <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
     <div class="container hero-inner">
-      <div class="hero-text">
-        <span class="badge">✔ Tüm marka ve modeller</span>
-        <h1>Kombiniz mi arızalandı?<br><span>Aynı gün</span> kapınızdayız.</h1>
-        <p>Kombi bakımı, arıza onarımı, montaj ve petek temizliğinde deneyimli ustalarla hızlı, temiz ve garantili hizmet.</p>
+      <div class="hero-text reveal">
+        <span class="live"><span class="live-dot"></span> Şu an hizmetteyiz · 7/24 açık</span>
+        <h1>Kombiniz <em>gece yarısı</em> bile bozulsa,<br><span class="grad">Kaytes yanınızda.</span></h1>
+        <p>7 gün 24 saat kombi tamiri, bakımı ve montajı. Tüm marka ve modellerde uzman kadro, orijinal parça ve yazılı garanti ile premium servis deneyimi.</p>
         <div class="hero-buttons">
-          <a href="tel:+905550000000" class="btn btn-primary">📞 Hemen Ara</a>
-          <a href="https://wa.me/905550000000?text=Merhaba,%20kombi%20servisi%20için%20bilgi%20almak%20istiyorum." class="btn btn-whatsapp" target="_blank" rel="noopener">💬 WhatsApp</a>
+          <a href="tel:+905550000000" class="btn btn-primary btn-lg">
+            <svg class="ico"><use href="#i-phone"/></svg> Hemen Ara
+          </a>
+          <a href="https://wa.me/905550000000?text=Merhaba%20Kaytes,%20kombi%20servisi%20için%20bilgi%20almak%20istiyorum." class="btn btn-ghost btn-lg" target="_blank" rel="noopener">
+            <svg class="ico"><use href="#i-msg"/></svg> WhatsApp'tan Yaz
+          </a>
         </div>
-        <ul class="hero-stats">
-          <li><strong>10+</strong><span>Yıl Tecrübe</span></li>
-          <li><strong>5000+</strong><span>Mutlu Müşteri</span></li>
-          <li><strong>%100</strong><span>İşçilik Garantisi</span></li>
+        <ul class="hero-trust">
+          <li><svg class="ico"><use href="#i-check"/></svg> Aynı gün servis</li>
+          <li><svg class="ico"><use href="#i-check"/></svg> Ücretsiz arıza tespiti</li>
+          <li><svg class="ico"><use href="#i-check"/></svg> Garantili işçilik</li>
         </ul>
       </div>
-      <div class="hero-card">
-        <h3>Ücretsiz Arıza Tespiti</h3>
-        <p>Formu doldurun, sizi hemen arayalım.</p>
-        <form class="quick-form" data-form>
-          <input type="text" name="ad" placeholder="Adınız Soyadınız" required>
-          <input type="tel" name="telefon" placeholder="Telefon Numaranız" required>
-          <select name="hizmet" required>
-            <option value="">Hizmet Seçin</option>
-            <option>Kombi Arıza Onarımı</option>
-            <option>Kombi Bakımı</option>
-            <option>Kombi Montajı</option>
-            <option>Petek Temizliği</option>
-            <option>Diğer</option>
-          </select>
-          <button type="submit" class="btn btn-primary btn-block">Beni Arayın</button>
-        </form>
+
+      <div class="hero-visual reveal">
+        <div class="dial">
+          <svg viewBox="0 0 200 200" class="dial-ring" aria-hidden="true">
+            <defs>
+              <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#7fb2ff"/>
+                <stop offset="100%" stop-color="#1e4fd6"/>
+              </linearGradient>
+            </defs>
+            <circle cx="100" cy="100" r="86" class="dial-track"/>
+            <circle cx="100" cy="100" r="86" class="dial-progress"/>
+          </svg>
+          <div class="dial-center">
+            <span class="dial-big">7/24</span>
+            <span class="dial-small">Kesintisiz Servis</span>
+          </div>
+        </div>
+        <div class="float-card fc-1">
+          <svg class="ico"><use href="#i-zap"/></svg>
+          <div><strong>Hızlı Müdahale</strong><span>Çağrıdan hemen sonra yola çıkış</span></div>
+        </div>
+        <div class="float-card fc-2">
+          <svg class="ico"><use href="#i-shield"/></svg>
+          <div><strong>Yazılı Garanti</strong><span>Tüm işçilik ve parçalarda</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kayan şerit -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Kombi Tamiri</span><i>✦</i><span>Kombi Bakımı</span><i>✦</i><span>Kombi Montajı</span><i>✦</i><span>Petek Temizliği</span><i>✦</i><span>Yedek Parça</span><i>✦</i><span>Termostat</span><i>✦</i><span>7/24 Acil Servis</span><i>✦</i>
+        <span>Kombi Tamiri</span><i>✦</i><span>Kombi Bakımı</span><i>✦</i><span>Kombi Montajı</span><i>✦</i><span>Petek Temizliği</span><i>✦</i><span>Yedek Parça</span><i>✦</i><span>Termostat</span><i>✦</i><span>7/24 Acil Servis</span><i>✦</i>
       </div>
     </div>
   </section>
@@ -80,138 +122,176 @@
   <!-- Hizmetler -->
   <section class="section" id="hizmetler">
     <div class="container">
-      <div class="section-head">
+      <div class="section-head reveal">
         <span class="eyebrow">Hizmetlerimiz</span>
-        <h2>Kombiniz için ihtiyacınız olan her şey</h2>
-        <p>Isıtma sisteminizin verimli, güvenli ve uzun ömürlü çalışması için profesyonel çözümler.</p>
+        <h2>Isınmanız için <em>eksiksiz</em> çözümler</h2>
+        <p>Arızadan bakıma, montajdan petek temizliğine kadar kombinizle ilgili her işte tek adres.</p>
       </div>
-      <div class="grid grid-3">
-        <article class="card">
-          <div class="card-icon">🛠️</div>
-          <h3>Kombi Arıza Onarımı</h3>
-          <p>Su akıtma, ateşleme yapmama, basınç düşmesi, hata kodları ve sıcak su sorunlarına yerinde çözüm.</p>
+      <div class="services">
+        <article class="service featured reveal">
+          <div class="service-icon"><svg><use href="#i-wrench"/></svg></div>
+          <span class="tag">En çok tercih edilen</span>
+          <h3>7/24 Kombi Tamiri</h3>
+          <p>Ateşleme yapmama, su akıtma, basınç düşmesi, sıcak su gelmemesi ve tüm hata kodlarına gece gündüz yerinde müdahale.</p>
+          <a href="tel:+905550000000" class="service-link">Hemen ara <svg class="ico"><use href="#i-arrow"/></svg></a>
         </article>
-        <article class="card">
-          <div class="card-icon">🧰</div>
+        <article class="service reveal">
+          <div class="service-icon"><svg><use href="#i-gear"/></svg></div>
           <h3>Periyodik Bakım</h3>
-          <p>Yıllık bakım ile %20'ye varan doğalgaz tasarrufu sağlayın, kombinizin ömrünü uzatın.</p>
+          <p>Detaylı yıllık bakım ile yakıt tasarrufu sağlayın, arıza riskini azaltın, kombinizin ömrünü uzatın.</p>
         </article>
-        <article class="card">
-          <div class="card-icon">🔧</div>
+        <article class="service reveal">
+          <div class="service-icon"><svg><use href="#i-flame"/></svg></div>
           <h3>Kombi Montajı</h3>
-          <p>Yeni kombi kurulumu, eski kombi sökümü ve yer değişikliği işlemleri kurallara uygun şekilde.</p>
+          <p>Yeni kombi kurulumu, söküm ve yer değişikliği; standartlara uygun, temiz ve kusursuz işçilik.</p>
         </article>
-        <article class="card">
-          <div class="card-icon">💧</div>
+        <article class="service reveal">
+          <div class="service-icon"><svg><use href="#i-drop"/></svg></div>
           <h3>Petek Temizliği</h3>
-          <p>Makineli ve ilaçlı petek temizliği ile ısınmayan petekleri ilk günkü verimine kavuşturun.</p>
+          <p>Makineli ve kimyasal temizlik ile tortu ve çamuru atın, ısınmayan petekleri ilk günkü verimine döndürün.</p>
         </article>
-        <article class="card">
-          <div class="card-icon">⚙️</div>
+        <article class="service reveal">
+          <div class="service-icon"><svg><use href="#i-shield"/></svg></div>
           <h3>Yedek Parça Değişimi</h3>
-          <p>Pompa, eşanjör, anakart, fan, üç yollu vana ve sensör değişimlerinde kaliteli parça kullanımı.</p>
+          <p>Pompa, eşanjör, anakart, fan, üç yollu vana ve sensör değişiminde kaliteli ve garantili parça.</p>
         </article>
-        <article class="card">
-          <div class="card-icon">🌡️</div>
+        <article class="service reveal">
+          <div class="service-icon"><svg><use href="#i-thermo"/></svg></div>
           <h3>Termostat Kurulumu</h3>
-          <p>Kablolu, kablosuz ve akıllı oda termostatı montajı ile konforlu ve tasarruflu ısınma.</p>
+          <p>Kablolu, kablosuz ve akıllı oda termostatlarıyla konforlu ve tasarruflu ısınma.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- Neden Biz -->
-  <section class="section section-alt" id="neden-biz">
-    <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">Neden Biz?</span>
-        <h2>Güvenle tercih edilen kombi ustası</h2>
-      </div>
-      <div class="grid grid-4">
-        <div class="feature">
-          <div class="feature-icon">⚡</div>
-          <h4>Hızlı Servis</h4>
-          <p>Çağrınızdan sonra en kısa sürede, çoğu zaman aynı gün adresinizdeyiz.</p>
+  <!-- İstatistikler -->
+  <section class="stats">
+    <div class="container stats-inner">
+      <div class="stat reveal"><strong data-count="24">0</strong><span>Saat Kesintisiz Hizmet</span></div>
+      <div class="stat reveal"><strong data-count="7">0</strong><span>Gün Açık</span></div>
+      <div class="stat reveal"><strong data-count="100" data-prefix="%">0</strong><span>Garantili İşçilik</span></div>
+      <div class="stat reveal"><strong data-count="0" data-text="Tüm">Tüm</strong><span>Marka ve Modeller</span></div>
+    </div>
+  </section>
+
+  <!-- Hakkımızda / Kurucu -->
+  <section class="section" id="hakkimizda">
+    <div class="container about">
+      <div class="about-visual reveal">
+        <div class="founder-card">
+          <div class="monogram">MK</div>
+          <div class="founder-meta">
+            <strong>Muhammed Kaya</strong>
+            <span>Kurucu · Kaytes Kombi</span>
+          </div>
+          <div class="founder-badge"><svg class="ico"><use href="#i-award"/></svg> Kurucu Güvencesi</div>
         </div>
-        <div class="feature">
-          <div class="feature-icon">🛡️</div>
-          <h4>Garantili İşçilik</h4>
+      </div>
+      <div class="about-text reveal">
+        <span class="eyebrow">Hakkımızda</span>
+        <h2>Bir isim değil, <em>bir söz.</em></h2>
+        <p>Kaytes, <strong>Muhammed Kaya</strong> tarafından tek bir ilkeyle kuruldu: Kombisi bozulan hiç kimse soğukta beklememeli. Bu yüzden gece, hafta sonu ya da bayram demeden 7/24 çalışıyoruz.</p>
+        <p>Her işi kendi evimizde yapıyormuş gibi özenle yapar, fiyatı işe başlamadan önce açıkça söyler ve verdiğimiz her hizmetin arkasında dururuz.</p>
+        <blockquote class="founder-quote">
+          “Müşterimin evi ısınmadan işimi bitmiş saymam.”
+          <cite>— Muhammed Kaya, Kurucu</cite>
+        </blockquote>
+        <ul class="about-list">
+          <li><svg class="ico"><use href="#i-check"/></svg> Şeffaf ve net fiyatlandırma</li>
+          <li><svg class="ico"><use href="#i-check"/></svg> Kaliteli ve garantili yedek parça</li>
+          <li><svg class="ico"><use href="#i-check"/></svg> Temiz ve özenli çalışma</li>
+          <li><svg class="ico"><use href="#i-check"/></svg> Tüm marka kombilere uzmanlık</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Neden Kaytes -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Neden Kaytes?</span>
+        <h2>Farkı ilk servisde <em>hissedeceksiniz</em></h2>
+      </div>
+      <div class="features">
+        <div class="feature reveal">
+          <svg class="ico-lg"><use href="#i-clock"/></svg>
+          <h4>7/24 Ulaşılabilir</h4>
+          <p>Gece yarısı, hafta sonu, bayram fark etmez. Telefonumuz her zaman açık.</p>
+        </div>
+        <div class="feature reveal">
+          <svg class="ico-lg"><use href="#i-zap"/></svg>
+          <h4>Hızlı Müdahale</h4>
+          <p>Çağrınızdan sonra en kısa sürede adresinizdeyiz, çoğu arıza ilk ziyarette çözülür.</p>
+        </div>
+        <div class="feature reveal">
+          <svg class="ico-lg"><use href="#i-tag"/></svg>
+          <h4>Şeffaf Fiyat</h4>
+          <p>İşe başlamadan önce net fiyat. Sürpriz ücret ya da gizli maliyet yok.</p>
+        </div>
+        <div class="feature reveal">
+          <svg class="ico-lg"><use href="#i-shield"/></svg>
+          <h4>Garantili Hizmet</h4>
           <p>Yapılan tüm işlemler ve değiştirilen parçalar garanti kapsamındadır.</p>
         </div>
-        <div class="feature">
-          <div class="feature-icon">💰</div>
-          <h4>Şeffaf Fiyat</h4>
-          <p>İşe başlamadan önce net fiyat verilir, sürpriz ücret yoktur.</p>
-        </div>
-        <div class="feature">
-          <div class="feature-icon">🧹</div>
-          <h4>Temiz Çalışma</h4>
-          <p>Evinize saygı duyar, iş bitiminde çalışma alanını temiz bırakırız.</p>
-        </div>
       </div>
     </div>
   </section>
 
-  <!-- Nasıl Çalışıyoruz -->
-  <section class="section" id="nasil">
+  <!-- Süreç -->
+  <section class="section" id="surec">
     <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">Süreç</span>
-        <h2>3 adımda sorunsuz kombi</h2>
+      <div class="section-head reveal">
+        <span class="eyebrow">Nasıl Çalışıyoruz</span>
+        <h2>Dört adımda <em>sıcak bir ev</em></h2>
       </div>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">1</div>
-          <h4>Bizi Arayın</h4>
-          <p>Telefon veya WhatsApp üzerinden sorununuzu kısaca anlatın.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">2</div>
-          <h4>Arıza Tespiti</h4>
-          <p>Ustamız adresinize gelir, arızayı tespit eder ve fiyat bilgisi verir.</p>
-        </div>
-        <div class="step">
-          <div class="step-num">3</div>
-          <h4>Onarım & Garanti</h4>
-          <p>Onayınızla işlem yapılır, kombiniz garantili olarak teslim edilir.</p>
-        </div>
+      <div class="timeline">
+        <div class="t-step reveal"><span class="t-num">01</span><h4>Bizi Arayın</h4><p>Telefon ya da WhatsApp ile sorununuzu kısaca anlatın.</p></div>
+        <div class="t-step reveal"><span class="t-num">02</span><h4>Hızlı Ziyaret</h4><p>Ustamız en kısa sürede adresinize gelir.</p></div>
+        <div class="t-step reveal"><span class="t-num">03</span><h4>Tespit & Fiyat</h4><p>Arıza tespit edilir, net fiyat onayınıza sunulur.</p></div>
+        <div class="t-step reveal"><span class="t-num">04</span><h4>Garantili Teslim</h4><p>Onarım tamamlanır, kombiniz garantili teslim edilir.</p></div>
       </div>
     </div>
   </section>
 
-  <!-- CTA -->
+  <!-- Acil CTA -->
   <section class="cta">
-    <div class="container cta-inner">
-      <div>
-        <h2>Kış gelmeden kombi bakımınızı yaptırın!</h2>
-        <p>Bakımlı kombi daha az yakar, daha az arıza yapar.</p>
+    <div class="container">
+      <div class="cta-box reveal">
+        <div>
+          <span class="live"><span class="live-dot"></span> Acil servis hattı açık</span>
+          <h2>Kombiniz şu an mı çalışmıyor?</h2>
+          <p>Beklemeyin. Gece ya da gündüz, tek bir telefonla Kaytes ekibi yola çıksın.</p>
+        </div>
+        <a href="tel:+905550000000" class="btn btn-light btn-lg">
+          <svg class="ico"><use href="#i-phone"/></svg> 0555 000 00 00
+        </a>
       </div>
-      <a href="tel:+905550000000" class="btn btn-light">📞 Randevu Al</a>
     </div>
   </section>
 
   <!-- Yorumlar -->
   <section class="section">
     <div class="container">
-      <div class="section-head">
+      <div class="section-head reveal">
         <span class="eyebrow">Müşteri Yorumları</span>
-        <h2>Müşterilerimiz ne diyor?</h2>
+        <h2>Bize güvenenler <em>anlatıyor</em></h2>
       </div>
-      <div class="grid grid-3">
-        <blockquote class="review">
-          <div class="stars">★★★★★</div>
-          <p>"Akşam saatinde aramama rağmen bir saat içinde geldiler. Kombi sorunsuz çalışıyor, çok teşekkürler."</p>
-          <cite>— Ayşe K.</cite>
+      <div class="reviews">
+        <blockquote class="review reveal">
+          <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+          <p>“Gece saat 2'de kombimiz durdu, aradığımda hemen açtılar ve kısa sürede geldiler. Çocuklarla soğukta kalmaktan kurtardılar.”</p>
+          <cite><span class="avatar">AK</span> Ayşe K.</cite>
         </blockquote>
-        <blockquote class="review">
-          <div class="stars">★★★★★</div>
-          <p>"Petek temizliğinden sonra ev çok daha hızlı ısınıyor. Fiyat da baştan söylendiği gibiydi."</p>
-          <cite>— Mehmet T.</cite>
+        <blockquote class="review reveal">
+          <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+          <p>“Petek temizliğinden sonra ev çok daha hızlı ısınıyor. Fiyat baştan ne söylendiyse o oldu, çok profesyoneller.”</p>
+          <cite><span class="avatar">MT</span> Mehmet T.</cite>
         </blockquote>
-        <blockquote class="review">
-          <div class="stars">★★★★★</div>
-          <p>"Yeni kombi montajını temiz ve düzenli yaptılar. Her şeyi tek tek anlattılar, gönül rahatlığıyla tavsiye ederim."</p>
-          <cite>— Elif D.</cite>
+        <blockquote class="review reveal">
+          <div class="stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+          <p>“Yeni kombi montajını tertemiz yaptılar, her şeyi tek tek anlattılar. Muhammed Bey'e ayrıca teşekkürler.”</p>
+          <cite><span class="avatar">ED</span> Elif D.</cite>
         </blockquote>
       </div>
     </div>
@@ -220,26 +300,30 @@
   <!-- SSS -->
   <section class="section section-alt" id="sss">
     <div class="container container-narrow">
-      <div class="section-head">
+      <div class="section-head reveal">
         <span class="eyebrow">SSS</span>
-        <h2>Sıkça Sorulan Sorular</h2>
+        <h2>Sıkça sorulan <em>sorular</em></h2>
       </div>
-      <div class="faq">
+      <div class="faq reveal">
         <details>
-          <summary>Kombi bakımı ne sıklıkla yapılmalı?</summary>
-          <p>Kombinin verimli ve güvenli çalışması için yılda en az bir kez, tercihen ısıtma sezonu başlamadan önce (Eylül – Ekim) bakım yaptırılması önerilir.</p>
-        </details>
-        <details>
-          <summary>Kombimin basıncı sürekli düşüyor, ne yapmalıyım?</summary>
-          <p>Basınç düşmesi genellikle tesisatta veya kombide bir su kaçağına, genleşme tankı sorununa işaret eder. Basıncı 1.2 – 1.5 bar aralığına getirip bizi aramanızı öneririz.</p>
+          <summary>Gerçekten 7/24 hizmet veriyor musunuz?</summary>
+          <p>Evet. Gece, hafta sonu ve resmi tatiller dahil her saat bize ulaşabilirsiniz. Acil arızalarda en kısa sürede adresinize ekip yönlendiririz.</p>
         </details>
         <details>
           <summary>Hangi marka kombilere servis veriyorsunuz?</summary>
-          <p>Piyasadaki tüm marka ve model kombilere bakım, onarım ve montaj hizmeti veriyoruz.</p>
+          <p>Piyasadaki tüm marka ve model kombilere tamir, bakım ve montaj hizmeti veriyoruz.</p>
         </details>
         <details>
           <summary>Arıza tespiti ücretli mi?</summary>
-          <p>Onarım işlemini bize yaptırmanız durumunda arıza tespiti ücretsizdir. Fiyat, işleme başlamadan önce size net olarak bildirilir.</p>
+          <p>Onarımı bize yaptırmanız durumunda arıza tespiti ücretsizdir. Fiyat, işleme başlamadan önce size açıkça bildirilir.</p>
+        </details>
+        <details>
+          <summary>Kombimin basıncı sürekli düşüyor, ne yapmalıyım?</summary>
+          <p>Basınç düşmesi genellikle tesisatta ya da kombide bir su kaçağına veya genleşme tankı sorununa işaret eder. Basıncı 1,2 – 1,5 bar aralığına getirip bizi arayın.</p>
+        </details>
+        <details>
+          <summary>Kombi bakımı ne sıklıkla yapılmalı?</summary>
+          <p>Yılda en az bir kez, tercihen ısıtma sezonu başlamadan önce bakım yaptırmanızı öneririz.</p>
         </details>
         <details>
           <summary>Yaptığınız işlemler garantili mi?</summary>
@@ -252,38 +336,54 @@
   <!-- İletişim -->
   <section class="section" id="iletisim">
     <div class="container">
-      <div class="section-head">
+      <div class="section-head reveal">
         <span class="eyebrow">İletişim</span>
-        <h2>Bize ulaşın</h2>
+        <h2>Size nasıl <em>yardımcı olabiliriz?</em></h2>
       </div>
       <div class="contact">
-        <div class="contact-info">
+        <div class="contact-info reveal">
           <a href="tel:+905550000000" class="contact-item">
-            <span class="ci-icon">📞</span>
-            <div><strong>Telefon</strong><span>0555 000 00 00</span></div>
+            <span class="ci-icon"><svg><use href="#i-phone"/></svg></span>
+            <div><strong>7/24 Servis Hattı</strong><span>0555 000 00 00</span></div>
           </a>
           <a href="https://wa.me/905550000000" target="_blank" rel="noopener" class="contact-item">
-            <span class="ci-icon">💬</span>
-            <div><strong>WhatsApp</strong><span>Mesaj gönderin</span></div>
+            <span class="ci-icon"><svg><use href="#i-msg"/></svg></span>
+            <div><strong>WhatsApp</strong><span>Hemen mesaj gönderin</span></div>
           </a>
           <div class="contact-item">
-            <span class="ci-icon">📍</span>
+            <span class="ci-icon"><svg><use href="#i-pin"/></svg></span>
             <div><strong>Hizmet Bölgesi</strong><span>Şehrinizin tüm ilçeleri</span></div>
           </div>
           <div class="contact-item">
-            <span class="ci-icon">🕘</span>
-            <div><strong>Çalışma Saatleri</strong><span>Her gün 08:00 – 22:00</span></div>
+            <span class="ci-icon"><svg><use href="#i-clock"/></svg></span>
+            <div><strong>Çalışma Saatleri</strong><span>7 gün 24 saat açık</span></div>
           </div>
         </div>
-        <form class="contact-form" data-form>
+        <form class="contact-form reveal" data-form>
+          <h3>Servis Talebi Oluşturun</h3>
+          <p>Bilgilerinizi bırakın, sizi hemen arayalım.</p>
           <div class="form-row">
-            <input type="text" name="ad" placeholder="Adınız Soyadınız" required>
-            <input type="tel" name="telefon" placeholder="Telefon Numaranız" required>
+            <label><span>Ad Soyad</span><input type="text" name="ad" required></label>
+            <label><span>Telefon</span><input type="tel" name="telefon" required></label>
           </div>
-          <input type="text" name="adres" placeholder="İlçe / Semt">
-          <textarea name="mesaj" rows="5" placeholder="Kombinizin markası ve yaşadığınız sorun..."></textarea>
-          <button type="submit" class="btn btn-primary btn-block">WhatsApp ile Gönder</button>
-          <small>Form bilgileriniz WhatsApp üzerinden bize iletilir.</small>
+          <div class="form-row">
+            <label><span>İlçe / Semt</span><input type="text" name="adres"></label>
+            <label><span>Hizmet</span>
+              <select name="hizmet" required>
+                <option value="">Seçiniz</option>
+                <option>Kombi Tamiri</option>
+                <option>Kombi Bakımı</option>
+                <option>Kombi Montajı</option>
+                <option>Petek Temizliği</option>
+                <option>Diğer</option>
+              </select>
+            </label>
+          </div>
+          <label><span>Mesajınız</span><textarea name="mesaj" rows="4" placeholder="Kombinizin markası ve yaşadığınız sorun..."></textarea></label>
+          <button type="submit" class="btn btn-primary btn-block btn-lg">
+            <svg class="ico"><use href="#i-msg"/></svg> WhatsApp ile Gönder
+          </button>
+          <small>Bilgileriniz WhatsApp üzerinden doğrudan bize iletilir.</small>
         </form>
       </div>
     </div>
@@ -292,34 +392,50 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container footer-inner">
-      <div>
-        <a href="#" class="logo logo-light"><span class="logo-icon">🔥</span><span>Usta<strong>Kombi</strong></span></a>
-        <p>Kombi bakım, arıza onarım ve montajında güvenilir çözüm ortağınız.</p>
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-mark">K</span>
+          <span class="logo-text">KAYTES<small>KOMBİ SERVİS</small></span>
+        </a>
+        <p>7/24 kombi tamiri, bakımı ve montajında güvenilir çözüm ortağınız.</p>
+        <p class="founder-line">Kurucu: <strong>Muhammed Kaya</strong></p>
       </div>
       <div>
         <h5>Hizmetler</h5>
         <ul>
-          <li>Kombi Arıza Onarımı</li>
-          <li>Kombi Bakımı</li>
-          <li>Kombi Montajı</li>
-          <li>Petek Temizliği</li>
+          <li><a href="#hizmetler">7/24 Kombi Tamiri</a></li>
+          <li><a href="#hizmetler">Kombi Bakımı</a></li>
+          <li><a href="#hizmetler">Kombi Montajı</a></li>
+          <li><a href="#hizmetler">Petek Temizliği</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Kurumsal</h5>
+        <ul>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li><a href="#surec">Süreç</a></li>
+          <li><a href="#sss">SSS</a></li>
+          <li><a href="#iletisim">İletişim</a></li>
         </ul>
       </div>
       <div>
         <h5>İletişim</h5>
         <ul>
           <li><a href="tel:+905550000000">0555 000 00 00</a></li>
-          <li>Her gün 08:00 – 22:00</li>
+          <li>7 gün 24 saat açık</li>
         </ul>
       </div>
     </div>
-    <div class="copyright">© <span id="year"></span> Usta Kombi Servis. Tüm hakları saklıdır.</div>
+    <div class="container copyright">
+      <span>© <span id="year"></span> Kaytes Kombi Servis. Tüm hakları saklıdır.</span>
+      <span>Muhammed Kaya</span>
+    </div>
   </footer>
 
-  <!-- Sabit butonlar (mobil) -->
+  <!-- Sabit butonlar -->
   <div class="floating">
-    <a href="https://wa.me/905550000000" class="float-btn float-wa" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
-    <a href="tel:+905550000000" class="float-btn float-call" aria-label="Ara">📞</a>
+    <a href="https://wa.me/905550000000" class="float-btn float-wa" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#i-msg"/></svg></a>
+    <a href="tel:+905550000000" class="float-btn float-call" aria-label="Ara"><svg><use href="#i-phone"/></svg></a>
   </div>
 
   <script src="script.js"></script>
